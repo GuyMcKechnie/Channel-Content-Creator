@@ -30,7 +30,6 @@ agent = Agent(
 
 async def main():
     await agent.run()
-    subprocess.call(["taskkill","/F","/IM","msedge.exe"])
 
 if __name__ == '__main__':
     asyncio.run(main())
